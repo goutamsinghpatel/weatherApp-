@@ -57,9 +57,13 @@ let newInfo=  await  getWeatherInfo();
  updateInfo(newInfo)
 }
 catch(err){
+  setErr(true);
+setTimeout(()=>{
+setErr(false);
+},1000)
 
-setErr(true);
 }
+
 
 
  }

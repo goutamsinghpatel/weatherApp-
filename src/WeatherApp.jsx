@@ -20,7 +20,7 @@ setWeatherInfo(newInfo)
     }
     return(<>
      <div style={{textAlign:"center"}}>
-       <h1> Weather app by banna</h1>
+       <h1> Weather-app </h1>
        <SearchBox updateInfo={updateInfo} />
        <InfoBox info={weatherInfo}/>
      </div>
